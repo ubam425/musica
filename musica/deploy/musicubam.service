@@ -1,0 +1,16 @@
+[Unit]
+Description=MusicUbam Spring Boot
+After=network.target mysql.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/musicubam/current
+EnvironmentFile=/opt/musicubam/shared/musicubam.env
+ExecStart=/usr/bin/java -jar /opt/musicubam/current/target/musica-0.0.1-SNAPSHOT.jar
+SuccessExitStatus=143
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

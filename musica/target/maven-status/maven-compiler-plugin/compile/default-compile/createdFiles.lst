@@ -1,0 +1,17 @@
+com\musica\musica\MobileApiController$RegistroRequest.class
+com\musica\musica\UsuarioRepository.class
+com\musica\musica\MusicaApplication.class
+com\musica\musica\Cancion.class
+com\musica\musica\Usuario.class
+com\musica\musica\MobileApiController$RecuperarRequest.class
+com\musica\musica\Rol.class
+com\musica\musica\DatosIniciales.class
+com\musica\musica\MobileApiController$UsuarioResponse.class
+com\musica\musica\MusicaRepository.class
+com\musica\musica\CorreoService.class
+com\musica\musica\MobileApiController$GeneroRequest.class
+com\musica\musica\MobileApiController.class
+com\musica\musica\MobileApiController$LoginRequest.class
+com\musica\musica\HomeController.class
+com\musica\musica\MobileApiController$ApiResponse.class
+com\musica\musica\MobileApiController$CancionResponse.class
